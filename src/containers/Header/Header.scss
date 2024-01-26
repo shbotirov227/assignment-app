@@ -1,0 +1,174 @@
+.Header {
+    padding: 0;
+    background: linear-gradient(119deg,  rgba(53, 48, 50, 0.9) -2.11%, rgba(6, 26, 94, 0.9) 63.58%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+    min-height: 100vh;
+    padding-bottom: 135px;
+    position: relative;
+
+    &:after {
+        content: "";
+        background-image: url("../../assets/images/pageEffect.webp");
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        bottom: -170px;
+        margin: 0 auto;
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    video {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        height: 110vh;
+        width: 100%;
+        object-fit: cover;
+        opacity: 0.9;
+    }
+
+    &-navigation {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        img {
+            width: 130px;
+            height: 130px;
+        }
+    }
+
+    &-link {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 30px 40px;
+        transition: all ease 0.4s;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 40px;
+    }
+
+    &-heroSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        &-left {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+        }
+
+        &-right {
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-img {
+            width: 70%;
+            margin-top: 25px;
+        }
+
+        &-title {
+            color: #FFF;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &-title2 {
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            color: #FFF;
+        }
+
+        &-text {
+            text-align: center;
+            margin: 30px 0;
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.7;
+            width: 60%;
+            position: relative;
+            margin: 25px auto;
+        }
+
+        .btn-primary, .btn-secondary {
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+
+    .placesSection {
+        position: relative;
+        top: 120px;
+        padding: 50px;
+        border-radius: 20px;
+        background: #242565;
+        box-shadow: 0px 10px 50px 0px rgba(61, 55, 241, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-input {
+            label {
+                color: #FFF;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-bottom: 25px;
+                display: block;
+            }
+            
+            input, select {
+                border-bottom: 1px solid #7778B0;
+                color: #FFF !important;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding-bottom: 10px;
+                background-color: transparent;
+            }
+
+            option {
+                color: #000;
+            }
+        }
+    }
+}
+
+@media  only screen and (min-width: 900px) and (max-width: 1024px) {
+    .Header {
+        margin-bottom: 150px;
+    }
+}
