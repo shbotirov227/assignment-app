@@ -1,9 +1,9 @@
 import React from 'react';
 import OtherServicesCardImg1 from "../../assets/images/otherServicesCardImg1.jpg";
-import OtherServicesCardImg2 from "../../assets/images/otherServicesCardImg2.jpg";
 import OtherServicesCardImg3 from "../../assets/images/otherServicesCardImg3.jpg";
 import OtherServicesCardImg4 from "../../assets/images/otherServicesCardImg4.jpg";
 import OtherServicesCardImg5 from "../../assets/images/otherServicesCardImg5.jpg";
+import OtherServicesCardImgNew from "../../assets/images/otherServicesCardImgNew.jpg";
 
 import "./OtherServices.scss";
 
@@ -18,7 +18,7 @@ const OtherServices = () => {
 
 		{
 			id: 1,
-			img: OtherServicesCardImg2,
+			img: OtherServicesCardImgNew,
 			title: "Bespoke catering"
 		},
 
@@ -50,8 +50,8 @@ const OtherServices = () => {
 				{
 					data.map((index, el) => (
 						<div className="OtherServices-item" key={data[el].id}>
-							<img className="OtherServices-itemImg" src={data[el].img} alt="otherServicesCardImg" />
 							<h4 className="OtherServices-itemTitle">{data[el].title}</h4>
+							<img className="OtherServices-itemImg" src={data[el].img} alt="otherServicesCardImg" />
 						</div>
 					))
 				}

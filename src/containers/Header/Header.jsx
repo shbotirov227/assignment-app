@@ -35,7 +35,7 @@ const Header = () => {
 						<h2 className="Header-heroSection-title2">We Design And Produce</h2>
 						<img className="Header-heroSection-img" src={bigTitle} alt="" />
 						<p className="Header-heroSection-text">We offer the hottest entertainment talent and event trends. Use us to bring your vision to a spectacular reality as we help you Plan, Produce, and Bring to Life an EXTRAORDINARY event experience!</p>
-						<button className="btn-secondary">Get Package</button>
+						<HashLink to="/#subscribes" className="btn-secondary">Get Package</HashLink>
 						<Link to="/about-us" className="btn-primary">Learn More</Link>
 					</div>
 				</div>

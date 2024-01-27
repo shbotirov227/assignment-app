@@ -1,12 +1,13 @@
 .MakeEvent {
-    background-color: #eee1ff;
+    background-color: #b2e4fa;
     padding: 40px;
     margin-bottom: 135px;
 
     &-inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-direction: column;
     }
 
     &-img {
@@ -23,7 +24,6 @@
     }
     
     &-text {
-        width: 55%;
         color: #272727;
         font-size: 18px;
         font-style: normal;
@@ -31,11 +31,15 @@
         line-height: normal;
         margin: 20px 0;
     }
+    
 
-    &-content {
-        width: 50%;
-        margin-left: 60px;
-    }
+    // &-content {
+    //     width: 100%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     flex-direction: column;
+    // }
 
     .btn-secondary {
         font-size: 18px;

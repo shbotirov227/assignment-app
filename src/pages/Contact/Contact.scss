@@ -2,9 +2,18 @@
     .Header {
         margin-bottom: 100px;
         box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.3);
+        min-height: 100%;
+
+        &-navigation {
+            margin: 0;
+            position: relative;
+            z-index: 3;
+        }
+
         .placesSection, &-heroSection {
             display: none;
         }
+        
     }
 
     &-informations {
@@ -13,11 +22,15 @@
         margin-bottom: 100px;
         width: 100%;
         height: 100%;
+        background: linear-gradient(119deg,  rgba(53, 48, 50, 0.9) -2.11%, rgba(6, 26, 94, 0.9) 63.58%);
+        border-radius: 50px;
+        padding: 50px;
     }
 
     &-formSection {
         width: 100%;
         padding: 0 40px;
+        
 
         &-title {
             font-weight: 700;
@@ -26,61 +39,56 @@
             margin: 0 auto;
             text-align: center;
             margin-bottom: 35px;
+            color: #fff;
         }
 
         label {
             display: block;
             margin-bottom: 10px;
+            color: #fff;
         }
 
         input {
             width: 100%;
             display: block;
-            border: 2px solid transparent;
-            border-bottom: 2px solid #292d33;
+            border: none;
             padding: 20px;
             margin-bottom: 20px;
-
-            &:focus {
-                border-color: 2px solid #0A075F;
-                border: 2px solid #292d33;
-            }
+            border-radius: 20px;  
         }
 
         textarea {
             padding: 20px;
             width: 100%;
-            border: 2px solid transparent;
-            border-bottom: 2px solid #292d33;
+            border: none;
             margin-bottom: 20px;
             outline: none;
             resize: none;
-
-            &:focus {
-                border-color: 2px solid #0A075F;
-                border: 2px solid #292d33;
-            }
+            border-radius: 20px;
         }
 
         .btn-secondary {
             width: 100%;
             display: block;
             font-size: 15pt;
+            background-color: #60cefd;
         }
     }
 
     &-addressSection {
         width: 100%;
-        background-color: #292d33;
+        // background-color: #292d33;
+        // background: linear-gradient(119deg,  rgba(53, 48, 50, 0.9) -2.11%, rgba(6, 26, 94, 0.9) 63.58%);
         padding: 40px;
         text-align: center;
+        border-radius: 50px;
 
         ul {
             margin-bottom: 50px;
         }
 
         .addressSection-title {
-            color: #f1c50e;
+            color: #60cefd;
             margin-bottom: 25px;
         }
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import BlogCard from "../../components/BlogCard/BlogCard";
-import BlogCardImg1 from "../../assets/images/blogCardImg1.png";
-import BlogCardImg2 from "../../assets/images/blogCardImg2.png";
-import BlogCardImg3 from "../../assets/images/blogCardImg3.png";
+import BlogCardImg1 from "../../assets/images/blogCardImg1.jpg";
+import BlogCardImg2 from "../../assets/images/blogCardImg2.jpg";
+import BlogCardImg3 from "../../assets/images/blogCardImg3.jpg";
 
 import "./Blog.scss";
 

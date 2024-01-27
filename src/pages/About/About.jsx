@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Header from "../../containers/Header/Header";
 import Footer from "../../containers/Footer/Footer";
+import barry from "../../assets/images/barry.png"
 
 import "./About.scss";
 
@@ -8,22 +10,49 @@ const About = () => {
 	return (
 		<div className="About">
 			<Header />
-				<div className="container">
-					<h3 className="About-title">Welcome to Party time - Eventick</h3>
+			<div className="About-inner container">
+				<h3 className="About-title">Welcome to Party Time Events</h3>
 
+				<div style={{display: "flex"}}>
+					<img style={{width: "50%"}} src={barry} alt="" />
 					<p className="About-text">
-						Welcome to Party time - Eventick !
+						Welcome to Party Time Events !
 
 
-						Thank you for taking the time to visit our website and considering us to be your rental provider! We would love to partner with you for your upcoming event. Pole Tent
+						At Party Time Events, we have a passion for crafting spectacular live events and engaging experiences that surpass all expectations. Led by award-winning event planner and producer, Barry Aleo, our team of top event planners, lighting designers, and entertainment staff infuse every project with adventure and excitement.
 
-						Party time - Eventick humbly began in 1983. Harmoniously with our genuine passion for the industry, it has grown to be one of the largest rental companies serving the Rocky Mountain Region. With convenient  locations in both Denver and Colorado Springs, we hold the largest inventory of rentals in Colorado. So we can gladly supply to all events.
 
-						While our passion, experience, knowledge, inventory, fleet, and staff have grown over the years, our belief that all events, no matter the size, are special and important, has remained true. Whether you are planning an intimate dinner for two or a large outdoor festival for over 10,000, you will Party Time Truckreceive one on one attention from our Tent & Event Specialists who are eager to learn more about your event and help supply you with the best and right equipment.
 
-						We know that our clients are relying on us for a huge part of their event’s success, whether it’s traditional or out-of-the-box, we are happy to work with you and you can count on us. Our flexible rental periods, dependable delivery services, knowledgeable Installation Specialists and superior customer service are unmatched when it comes to providing a professional and worry-free rental process.
+						By working with us, you'lll receive our meticulous attention to detail and modern, trendy creativity. From unforgettable weddings to corporate galas, theme parties, school events and city events, we possess the expertise to make any vision a reality.
+
+
+
+						Our extensive network grants us access to the best venues, caterers, florists, photographers, décor, equipment rentals, and audiovisual effects, providing a full-service experience of unparalleled quality.
+
+
+
+						We understand that every event is unique, which is why we offer a personalized approach. Collaborating closely with our clients, we tailor customized plans that align with their goals, vision, and budget.
+
+
+
+						Are you ready to take your event from ordinary to Extraordinary? Contact Party Time Events today, and let's begin crafting a celebration like no other!
 					</p>
 				</div>
+
+				<div className="aboutCard-section">
+					<div className="aboutCard-section-left">
+						<h4 className="aboutCard-section-title">Interested in our services?</h4>
+						<h4 className="aboutCard-section-title2">We’re here to help!</h4>
+					</div>
+
+					<div className="aboutCard-section-right">
+						<p className="aboutCard-section-text">
+							We want to know your needs exactly so that we can provide the perfect solution. Let us know what you want and we’ll do our best to help. We are laid back and happy to speak with you on the phone or by email.
+						</p>
+						<Link className="btn-secondary" to="/#subscribes">GET PRICING</Link>
+					</div>
+				</div>
+			</div>
 			<Footer />
 		</div>
 	)

@@ -1,23 +1,28 @@
 .OtherServices {
     margin-bottom: 130px !important;
-
+    
     .Blog-title {
         text-align: center;
     }
-
+    
     &-services {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-
     }
-
+    
     &-item {
+        filter: drop-shadow(0px 0px 20px #2a4598);
+        // background-image: radial-gradient(circle, #6168c0, #6674c9, #6b80d1, #728cd9, #7998e1, #6ea2e8, #64aced, #5cb6f0, #3cbfed, #21c7e5, #26cdd8, #43d2c8);
+        box-shadow: 5px 10px 15px 5px rgba(34, 60, 80, 0.35);
         text-align: center;
         width: 400px;
+        height: 400px;
         margin: 35px;
+        padding: 30px;
+        border-radius: 20px;
     }
 
     &-itemImg {
@@ -26,6 +31,12 @@
     }
 
     &-itemTitle {
+        color: #000;
         font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    img {
+        border-radius: 20px;
     }
 }

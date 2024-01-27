@@ -1,5 +1,6 @@
 .About {
     
+    
     &-title {
         text-align: center;
         color: #0A075F;
@@ -8,6 +9,7 @@
     }
 
     &-text {
+        width: 75%;
         font-size: 16pt;
         color: #737373;
         margin: 0;
@@ -15,11 +17,72 @@
         line-height: 45px;
         margin-bottom: 100px;
     }
+
+    img {
+        height: 30%;
+    }
+
     .Header {
         margin-bottom: 100px;
         box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.3);
+        min-height: 100%;
+        
+        &-navigation {
+            margin: 0;
+            position: relative;
+            z-index: 3;
+        }
+
         .placesSection, &-heroSection {
             display: none;
+        }
+    }
+
+    .aboutCard-section {
+        max-width: 80%;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0A075F;
+        border-radius: 20px;
+        margin-bottom: 70px;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 3;
+
+        &-left {
+            width: 50%;
+        }
+
+        &-right {
+            width: 50%;
+        }
+
+        &-title {
+            width: 100%;
+            color: #fff;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        &-title2 {
+            width: 100%;
+            color: rgba(199, 190, 245, 1);
+            font-size: 30px;
+        }
+
+        &-text {
+            width: 100%;
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 50px;
+        }
+
+        .btn-secondary {
+            font-size: 15px;
         }
     }
 }

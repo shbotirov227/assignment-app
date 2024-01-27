@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from "../../assets/images/logo.png";
 import SignUpWithGoogleIcon from "../../assets/images/signupWithGoogleIcon.svg";
 import SignUpWithFacebookIcon from "../../assets/images/signupWithFacebookIcon.svg";
-import SignUpLeftImg from "../../assets/images/signupImg.png";
 
 import "./SignUp.scss";
 
@@ -11,11 +9,11 @@ const SignUp = () => {
 	return (
 		<div className="SignUp">
 			<div className="SignUp-inner container">
-				<div className="SignUp-left">
+				{/* <div className="SignUp-left">
 					<Link to="/"><img className="logo" src={Logo} alt="logo" /></Link>
-					<h4 className="SignUp-left-title">Getting Started With Party Time Eventick</h4>
+					<h4 className="SignUp-left-title">Getting Started With Party Time Events</h4>
 					<img className="SignUp-left-img" src={SignUpLeftImg} alt="" />
-				</div>
+				</div> */}
 
 				<div className="SignUp-right">
 					<h3 className="SignUp-right-title">Create Account</h3>

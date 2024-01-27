@@ -1,14 +1,20 @@
 .BlogCard {
-    width: 100%;
-    border-radius: 20px;
+    width: 60%;
+    border-radius: 35px;
     margin: 0 30px;
     cursor: pointer;
     transition: all ease 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 1px solid #cbcbcb;
     
     &:hover {
         box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.2);
-        transform: translate(0, -10px)
-
+        transform: translate(0, -10px);
+        border: 1px solid transparent;
     }
 
     &-content {
@@ -16,8 +22,9 @@
     }
     
     &-img {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 40%;
+        height: 100%;
+        border-radius: 20px;
     }
 
     &-title {

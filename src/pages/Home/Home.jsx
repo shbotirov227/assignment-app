@@ -15,11 +15,11 @@ const Home = () => {
 		<div className="Home">
 			<video autoPlay loop muted src={BackgroundVideo} type='video/mp4'></video>
 			<Header />
-			<Upcoming />
 			<OtherServices />
+			<Upcoming />
+			<Blog />
 			<MakeEvent />
 			<Package />
-			<Blog />
 			<Footer />
 		</div>
 	)

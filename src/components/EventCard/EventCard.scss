@@ -28,7 +28,7 @@
     }
 
     &-text {
-        color: #6A6A6A;
+        color: #974e4e;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -36,7 +36,7 @@
     }
 
     &-month {
-        color: #3D37F1;
+        color: #070707;
         text-align: center;
         font-size: 18.372px;
         font-style: normal;
@@ -45,7 +45,7 @@
     }
 
     &-date {
-        color: #000;
+        color: #b31a1a;
         font-size: 28.429px;
         font-style: normal;
         font-weight: 700;
@@ -55,6 +55,8 @@
     
     &-type {
         font-size: 18px;
+        font-weight: 800;
+        color: #9e2020;
     }
 
     &-bottom {
