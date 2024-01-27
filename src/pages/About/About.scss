@@ -1,9 +1,7 @@
 .About {
-    
-    
     &-title {
         text-align: center;
-        color: #0A075F;
+        color: #0a075f;
         font-size: 25pt;
         margin-bottom: 50px;
     }
@@ -26,14 +24,15 @@
         margin-bottom: 100px;
         box-shadow: -5px 10px 10px 4px rgba(34, 60, 80, 0.3);
         min-height: 100%;
-        
+
         &-navigation {
             margin: 0;
             position: relative;
             z-index: 3;
         }
 
-        .placesSection, &-heroSection {
+        .placesSection,
+        &-heroSection {
             display: none;
         }
     }
@@ -44,7 +43,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #0A075F;
+        background-color: #0a075f;
         border-radius: 20px;
         margin-bottom: 70px;
         position: relative;
